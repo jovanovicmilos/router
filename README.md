@@ -1,6 +1,6 @@
 # Dobrodošli!
 
-## SPECIFIKACIJA TEHNOLOGIJA
+### SPECIFIKACIJA TEHNOLOGIJA
 
 - $ node
 	> --version v6.11.4
@@ -19,7 +19,7 @@
     > --version Local  3.9.1
  
 
-## INSTRUKCIJE ZA POKRETANJE PROJEKTA
+### INSTRUKCIJE ZA POKRETANJE PROJEKTA
 
 ```
 1. git clone https://github.com/jovanovicmilos/router.git
