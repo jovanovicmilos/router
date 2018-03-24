@@ -36,3 +36,7 @@ iz komandne linije komandom "gulp".
 ```
 - Default-ni port projekta je 3000, mozete po zelji promeniti u gulpfile.js (linija: 50)
 - localhost:3000
+
+### NAPOMENA
+
+Sve komponente koje nisu neophodne za pokretanje projekta u "gulpfile.js"-u, a korišćene su u develop modu su zakomentarisane u kodu. 

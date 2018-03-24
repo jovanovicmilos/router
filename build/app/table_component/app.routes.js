@@ -23,7 +23,6 @@
                     response: function (tableService, $route, $location) {
                         return tableService.getAll($route.current.params.filename)
                             .then(function success(response) {
-                                console.log(response)
                                 return response.data;
                             }, function error(response) {
                                 if (response.status == 404) {
