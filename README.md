@@ -20,8 +20,8 @@
     
 - $ AngularJS
 	> --version ^1.6.9
-        > angular-route version ^1.6.9
-        > angular-moment version ^1.2.0
+    > --angular-route version ^1.6.9
+    > --angular-moment version ^1.2.0
     
 - $ moment
 	> --version ^2.21.0
