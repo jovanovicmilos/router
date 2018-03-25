@@ -17,6 +17,20 @@
 - $ gulp
 	> --version CLI  3.9.1
     > --version Local  3.9.1
+    
+- $ AngularJS
+	> --version ^1.6.9
+        > angular-route version ^1.6.9
+        > angular-moment version ^1.2.0
+    
+- $ moment
+	> --version ^2.21.0
+    
+- $ jQuery
+	> --version ^3.3.1
+    
+- $ bootstrap
+	> --version ^4.0.0
  
 
 ### INSTRUKCIJE ZA POKRETANJE PROJEKTA
