@@ -11,12 +11,12 @@
         $locationProvider.hashPrefix('');
         $routeProvider
             .when('/', {
-                templateUrl: 'dist/app/table_component/views/404.html',
+                templateUrl: 'dist/app/table_component/templates/404.html',
                 controller: 'tableController',
                 controllerAs: 'vm'
             })
             .when('/table/:filename', {
-                templateUrl: 'dist/app/table_component/views/homepage.html',
+                templateUrl: 'dist/app/table_component/templates/homepage.html',
                 controller: 'tableController',
                 controllerAs: 'vm',
                 resolve: {
