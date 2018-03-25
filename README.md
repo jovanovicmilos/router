@@ -18,7 +18,7 @@
 	> --version CLI  3.9.1<br />
     > --version Local  3.9.1
     
-- $ AngularJS
+- $ AngularJS (Jon Papa style guide)
 	> --version ^1.6.9<br />
     > --angular-route version ^1.6.9<br />
     > --angular-moment version ^1.2.0<br />
