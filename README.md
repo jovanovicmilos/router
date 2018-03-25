@@ -15,13 +15,13 @@
 	> --version 1.8.2
     
 - $ gulp
-	> --version CLI  3.9.1
+	> --version CLI  3.9.1<br />
     > --version Local  3.9.1
     
 - $ AngularJS
-	> --version ^1.6.9
-    > --angular-route version ^1.6.9
-    > --angular-moment version ^1.2.0
+	> --version ^1.6.9<br />
+    > --angular-route version ^1.6.9<br />
+    > --angular-moment version ^1.2.0<br />
     
 - $ moment
 	> --version ^2.21.0
