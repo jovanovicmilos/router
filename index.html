@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <title ng-controller='tableController as vm'>{{vm.data.current.params.filename | capitalize}}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark  bg-primary">
+        <div class="container">
+            <a class="navbar-brand mb-0 h1" href="#">Tradecore</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href="#/table/uploads">Uploads</a>
+                    <a class="nav-item nav-link" href="#/table/car_purchases">Car purchase</a>
+                    <a class="nav-item nav-link" href="#/table/users">Users</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container main">
+        <div ng-view></div>
+    </div>
+    <!-- angular -->
+    <script src="assets/bower_components/angular/angular.min.js"></script>
+    <script src="assets/bower_components/angular-route/angular-route.min.js"></script>
+
+    <script src="assets/bower_components/moment/moment.js"></script>
+    <script src="assets/bower_components/angular-moment/angular-moment.min.js"></script>
+    <!-- app > main application file -->
+    <script src="dist/app/app.module.min.js"></script>
+    <!-- app > controllers -->
+    <script src="dist/app/table_component/app.controller.min.js"></script>
+    <!-- app > services -->
+    <script src="dist/app/table_component/app.service.min.js"></script>
+    <!-- app > config(routes) -->
+    <script src="dist/app/table_component/app.routes.min.js"></script>
+    <!-- app > filters -->
+    <script src="dist/app/table_component/app.filters.min.js"></script>
+</body>
+
+</html>
